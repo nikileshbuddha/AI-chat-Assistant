@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const genAI = new GoogleGenerativeAI('AIzaSyBp9H32zWa3aS9jcqk3fe9nQCZBtY2nEGU');
+const genAI = new GoogleGenerativeAI('YOUR_API_KEY');
 const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
 
 function formatResponse(text: string): string {
